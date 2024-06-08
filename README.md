@@ -15,13 +15,14 @@ As further supplementary information to this thesis, there is the NetLogo 6.4.0 
   - `flowchart_MCTS_back_propagation_algorithm.png`
   - `flowchart_combinatorics_algorithm.png`
 * A folder "Thesis Analysis Folder" containing the data and scripts needed to reproduce my analyses of the experimental results:
-  - `28_04_2024_triad_experiment.csv` containing data for the main results for the three-agent toy scenario.
-  - `29_04_2024_variable_cohesion_small_experiment.csv` containing data from the main results for the four-agent variable network cohesion scenario.
-  - `28_04_2024_star_experiment.csv` containing data for the main results for the five-agent star scenario.
-  - `11_05_2024_old_guard_experiment.csv` containing data from the main results for the nine-agent 'old guard' scenario.
-  - `05_05_2024_triad_robustness_test.csv` containing data for the robustness test in the triad scenario.
-  - `18_05_2024_star_robustness_test.csv` containing data for the robustness test in the star scenario.
-  - `30_04_2024_parameter_exploration.csv` containing data for the latest parameter exploration.
+  - `simulation_data.zip`, a  ZIP archive containing the comma-separated data files:
+    1. `28_04_2024_triad_experiment.csv` containing data for the main results for the three-agent toy scenario.
+    2. `29_04_2024_variable_cohesion_small_experiment.csv` containing data from the main results for the four-agent variable network cohesion scenario.
+    3. `28_04_2024_star_experiment.csv` containing data for the main results for the five-agent star scenario.
+    4. `11_05_2024_old_guard_experiment.csv` containing data from the main results for the nine-agent 'old guard' scenario.
+    5. `05_05_2024_triad_robustness_test.csv` containing data for the robustness test in the triad scenario.
+    6. `18_05_2024_star_robustness_test.csv` containing data for the robustness test in the star scenario.
+    7. `30_04_2024_parameter_exploration.csv` containing data for the latest parameter exploration.
   - `functions.R` an `R` script containing all custom functions used by the other `R` scripts.
   - `triad_results.R` an `R` script analysing the three-agent toy scenario.
   - `variable_cohesion_small_results.R` an `R` script analysing the four-agent scenario with a variable-cohesion network.
